@@ -3,6 +3,7 @@ baseURL = 'https://emodom468.github.io/'
 languageCode = 'en-us'
 theme = "ananke"
 
+# GitHub Pages deployment configuration
 [params]
     featured_image = "images/homepage-banner.jpg"
 
