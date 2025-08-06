@@ -1,0 +1,25 @@
+title = 'Emma Odom - Portfolio'
+baseURL = 'https://emodom468.github.io/'
+languageCode = 'en-us'
+theme = "ananke"
+
+[params]
+    featured_image = "images/homepage-banner.jpg"
+
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    url = "/about/"
+    weight = 1
+
+[[menu.main]]
+    name = "Projects"
+    identifier = "projects"
+    url = "/projects/"
+    weight = 2
+
+[[menu.main]]
+    name = "Blog"
+    identifier = "blog"
+    url = "/blog/"
+    weight = 3
