@@ -18,8 +18,4 @@ theme = "ananke"
     url = "/projects/"
     weight = 2
 
-[[menu.main]]
-    name = "Blog"
-    identifier = "blog"
-    url = "/blog/"
-    weight = 3
+
