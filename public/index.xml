@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Emma Odom - Portfolio</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Emma Odom - Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Aug 2025 22:27:02 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/projects/</link>
+      <pubDate>Tue, 05 Aug 2025 22:27:02 -0400</pubDate>
+      <guid>http://localhost:1313/projects/</guid>
+      <description>&lt;h1 id=&#34;my-projects&#34;&gt;My Projects&lt;/h1&gt;&#xA;&lt;p&gt;Here are some of the projects I&amp;rsquo;ve worked on. Each one represents a learning opportunity and a chance to solve real-world problems.&lt;/p&gt;&#xA;&lt;h2 id=&#34;portfolio-website&#34;&gt;Portfolio Website&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Technologies&lt;/strong&gt;: Hugo, GitHub Pages, HTML/CSS&lt;/p&gt;&#xA;&lt;p&gt;This very website you&amp;rsquo;re viewing! Built with Hugo static site generator and deployed on GitHub Pages. Features a clean, responsive design with easy navigation.&lt;/p&gt;&#xA;&lt;h2 id=&#34;project-2-coming-soon&#34;&gt;Project 2: [Coming Soon]&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Technologies&lt;/strong&gt;: TBD&lt;/p&gt;&#xA;&lt;p&gt;Description of your next project will go here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;project-3-coming-soon&#34;&gt;Project 3: [Coming Soon]&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Technologies&lt;/strong&gt;: TBD&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Tue, 05 Aug 2025 22:26:53 -0400</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h1 id=&#34;about-emma-odom&#34;&gt;About Emma Odom&lt;/h1&gt;&#xA;&lt;p&gt;Welcome to my portfolio! I&amp;rsquo;m a passionate developer and creative problem solver with a love for building innovative solutions.&lt;/p&gt;&#xA;&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;&#xA;&lt;p&gt;I specialize in web development and enjoy working with modern technologies to create user-friendly applications. My journey in tech has been driven by curiosity and a desire to make a positive impact through code.&lt;/p&gt;&#xA;&lt;h2 id=&#34;skills&#34;&gt;Skills&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Frontend Development&lt;/strong&gt;: HTML, CSS, JavaScript, React&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Backend Development&lt;/strong&gt;: Node.js, Python, Databases&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tools &amp;amp; Technologies&lt;/strong&gt;: Git, GitHub, VS Code, Command Line&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Soft Skills&lt;/strong&gt;: Problem Solving, Team Collaboration, Communication&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;what-im-working-on&#34;&gt;What I&amp;rsquo;m Working On&lt;/h2&gt;&#xA;&lt;p&gt;Currently, I&amp;rsquo;m focused on expanding my knowledge in full-stack development and exploring new technologies. I believe in continuous learning and staying up-to-date with industry best practices.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
