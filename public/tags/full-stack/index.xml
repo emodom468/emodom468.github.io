@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Full-Stack on Emma Odom - Portfolio</title>
+    <link>http://localhost:1313/tags/full-stack/</link>
+    <description>Recent content in Full-Stack on Emma Odom - Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Aug 2025 22:27:02 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/full-stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sample Project</title>
+      <link>http://localhost:1313/projects/sample-project/</link>
+      <pubDate>Mon, 04 Aug 2025 22:27:02 -0400</pubDate>
+      <guid>http://localhost:1313/projects/sample-project/</guid>
+      <description>&lt;h1 id=&#34;sample-project&#34;&gt;Sample Project&lt;/h1&gt;&#xA;&lt;p&gt;A full-stack web application demonstrating modern web development practices and technologies.&lt;/p&gt;&#xA;&lt;h2 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h2&gt;&#xA;&lt;p&gt;This is a sample project that showcases my skills in full-stack development. It includes user authentication, database management, and a responsive frontend interface.&lt;/p&gt;&#xA;&lt;h2 id=&#34;key-features&#34;&gt;Key Features&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;User Authentication&lt;/strong&gt;: Secure login and registration system&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Database Integration&lt;/strong&gt;: MongoDB with Mongoose ODM&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Responsive Design&lt;/strong&gt;: Mobile-first approach with modern CSS&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Real-time Updates&lt;/strong&gt;: WebSocket integration for live data&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;API Development&lt;/strong&gt;: RESTful backend with Express.js&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;technical-implementation&#34;&gt;Technical Implementation&lt;/h2&gt;&#xA;&lt;p&gt;The project uses a modern tech stack with React for the frontend, Node.js and Express for the backend, and MongoDB for data persistence. Authentication is handled with JWT tokens, and the UI is built with responsive design principles.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Emma Odom - Portfolio</title>
+    <link>http://localhost:1313/tags/python/</link>
+    <description>Recent content in Python on Emma Odom - Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 Aug 2025 22:27:02 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Future Project</title>
+      <link>http://localhost:1313/projects/coming-soon/</link>
+      <pubDate>Sun, 03 Aug 2025 22:27:02 -0400</pubDate>
+      <guid>http://localhost:1313/projects/coming-soon/</guid>
+      <description>&lt;h1 id=&#34;future-project&#34;&gt;Future Project&lt;/h1&gt;&#xA;&lt;p&gt;An exciting new project currently in development. This will showcase advanced web development techniques and innovative solutions.&lt;/p&gt;&#xA;&lt;h2 id=&#34;project-vision&#34;&gt;Project Vision&lt;/h2&gt;&#xA;&lt;p&gt;This project aims to demonstrate cutting-edge web development practices while solving real-world problems. It will incorporate modern technologies and best practices from the industry.&lt;/p&gt;&#xA;&lt;h2 id=&#34;planned-features&#34;&gt;Planned Features&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Advanced UI/UX&lt;/strong&gt;: Modern design patterns and user experience&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Performance Optimization&lt;/strong&gt;: Fast loading and efficient resource usage&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Scalable Architecture&lt;/strong&gt;: Built to handle growth and expansion&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Security First&lt;/strong&gt;: Industry-standard security practices&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;technology-stack&#34;&gt;Technology Stack&lt;/h2&gt;&#xA;&lt;p&gt;The project will utilize a carefully selected technology stack that balances performance, maintainability, and modern development practices.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
