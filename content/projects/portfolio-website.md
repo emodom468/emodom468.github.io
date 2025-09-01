@@ -1,6 +1,6 @@
 +++
 title = "Portfolio Website"
-date = 2025-08-05T22:27:02-04:00
+date = 2025-08-03T22:27:02-04:00
 draft = false
 description = "This very website you're viewing! Built with Hugo static site generator and deployed on GitHub Pages. Features a clean, responsive design with easy navigation."
 tags = ["Hugo", "GitHub Pages", "Web Development"]

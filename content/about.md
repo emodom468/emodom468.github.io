@@ -6,7 +6,7 @@ draft = false
 
 # About Emma Odom
 
-Welcome to my portfolio! I'm a passionate developer and creative problem solver with a love for building innovative solutions.
+Welcome to my portfolio! The content on this page is not complete - this was default.
 
 ## Background
 

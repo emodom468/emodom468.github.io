@@ -6,12 +6,12 @@
     <description>Recent content in Hugo on Emma Odom - Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Aug 2025 22:27:02 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 03 Aug 2025 22:27:02 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Portfolio Website</title>
       <link>http://localhost:1313/projects/portfolio-website/</link>
-      <pubDate>Tue, 05 Aug 2025 22:27:02 -0400</pubDate>
+      <pubDate>Sun, 03 Aug 2025 22:27:02 -0400</pubDate>
       <guid>http://localhost:1313/projects/portfolio-website/</guid>
       <description>&lt;h1 id=&#34;portfolio-website&#34;&gt;Portfolio Website&lt;/h1&gt;&#xA;&lt;p&gt;This very website you&amp;rsquo;re viewing! Built with Hugo static site generator and deployed on GitHub Pages. Features a clean, responsive design with easy navigation.&lt;/p&gt;&#xA;&lt;h2 id=&#34;technologies-used&#34;&gt;Technologies Used&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Hugo&lt;/strong&gt;: Static site generator&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;GitHub Pages&lt;/strong&gt;: Free hosting and deployment&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;HTML/CSS&lt;/strong&gt;: Custom styling and layout&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Markdown&lt;/strong&gt;: Easy content creation&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Responsive Design&lt;/strong&gt;: Works perfectly on all devices&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Fast Loading&lt;/strong&gt;: Static site generation for optimal performance&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Easy Updates&lt;/strong&gt;: Simple Markdown files for content management&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Professional Look&lt;/strong&gt;: Clean, modern design using the Ananke theme&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;development-process&#34;&gt;Development Process&lt;/h2&gt;&#xA;&lt;p&gt;This site was built using Hugo&amp;rsquo;s powerful static site generation capabilities, combined with GitHub Pages for seamless deployment. The Ananke theme provides a solid foundation that I&amp;rsquo;ve customized to create a professional portfolio showcase.&lt;/p&gt;</description>
     </item>

@@ -19,6 +19,7 @@ I am trying to find all components of the rig.
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS9a9wGIX4Bf6rD-zuoecSxzVqqyblmre1gvwzgA6rQGxJ3U0qr9HTC3ILTakiOUpVooNBT7ZXMeznA/pubhtml?gid=0&single=true" width="100%" height="400" frameborder="0"></iframe>
 {{< /rawhtml >}}
 
+- cheaper breadboards may actually make errant contacts internally - the metal shaft that holds the pin can shift around. we noticed this is a problem when we make the conductance sensor. 
 
 ## Conductance Circuit
 
@@ -36,6 +37,8 @@ Documented by Vera McCoy.
 
 The project uses a modern tech stack with React for the frontend, Node.js and Express for the backend, and MongoDB for data persistence. Authentication is handled with JWT tokens, and the UI is built with responsive design principles.
 
+
+- note, cheaper 
 ## Basler Camera API
 
 
