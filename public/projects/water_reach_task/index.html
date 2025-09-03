@@ -49,7 +49,7 @@
   <meta itemprop="description" content="Rig, sensors, hardware, software for water droplet reaching task">
   <meta itemprop="datePublished" content="2025-08-05T22:27:02-04:00">
   <meta itemprop="dateModified" content="2025-08-05T22:27:02-04:00">
-  <meta itemprop="wordCount" content="117">
+  <meta itemprop="wordCount" content="695">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Water Droplet Reaching Task for Mice">
   <meta name="twitter:description" content="Rig, sensors, hardware, software for water droplet reaching task">
@@ -134,8 +134,7 @@
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h1 id="water-droplet-reach-task">Water Droplet Reach Task</h1>
-<p>Documentation of RIG and software.</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Documentation of RIG and software.</p>
 <h2 id="bill-of-materials">Bill of Materials</h2>
 <p>I am trying to find all components of the rig.</p>
 
@@ -144,20 +143,174 @@
 <ul>
 <li>cheaper breadboards may actually make errant contacts internally - the metal shaft that holds the pin can shift around. we noticed this is a problem when we make the conductance sensor.</li>
 </ul>
+<h2 id="initial-computer-setup">Initial Computer Setup</h2>
+<h4 id="softwares-to-download">Softwares to download</h4>
+<p>I provide links to help find correct download, but it is possible they will go out of date and you will need to find the download yourself.</p>
+<p>Download (required):</p>
+<ul>
+<li>
+<p><a href="https://www.arduino.cc/en/software/">Arduino IDE</a></p>
+<ul>
+<li>Install <a href="https://github.com/PaulStoffregen/CapacitiveSensor/blob/master/CapacitiveSensor.cpp">CapacitiveSensor</a> library for capacitance based rig.</li>
+<li>you can do this directly in Arduino IDE by <strong>Library Manager &gt; search &ldquo;capacitivesensor&rdquo; &gt; select version by Paul &gt; Install</strong></li>
+</ul>
+
+   <img src="/images/cap_sensor_library.jpg" width="250" height="250" style="margin-left: 20px;">
+   
+<ul>
+<li>or you can copy the .cpp file from link above to the correct location .. i have note on this somewhere I think</li>
+</ul>
+</li>
+<li>
+<p>Code interpretter</p>
+<ul>
+<li>I use <a href="https://code.visualstudio.com/download">VSCode</a></li>
+<li>or <a href="https://cursor.com/en/downloads">Cursor</a> which is built on VSCode. Cursor is useful because it can take the full code base into account when making changes, helping to maintain compatibility.</li>
+</ul>
+</li>
+<li>
+<p>Camera control software</p>
+<ul>
+<li><a href="https://docs.arducam.com/UVC-Camera/Appilcation-Note/Software-Instruction/Windows-AMCap/#focus-mode">AMCap.exe</a> for arducam series</li>
+<li><a href="https://www.baslerweb.com/en-us/shop/a2a1920-160umbas/#software=2012599532">Pylon API</a> for Basler cameras</li>
+</ul>
+</li>
+<li>
+<p><a href="https://images.videolan.org/vlc/">VLC media player</a> for viewing videos</p>
+</li>
+<li>
+<p>ffmpeg for video compression</p>
+</li>
+<li>
+<p>Anaconda ? do you actually need to install this or is vscode pretty complete when you downoad?</p>
+</li>
+</ul>
+<p>Download (recommended):</p>
+<ul>
+<li>Google Chrome</li>
+<li>Google <a href="https://chromewebstore.google.com/detail/chrome-remote-desktop/inomeogfingihgjfjlpeplalcfajhgai?hl=en&amp;pli=1">Chrome Remote Desktop</a>
+<ul>
+<li>easy remote monitoring of behavior</li>
+</ul>
+</li>
+<li><a href="https://www.dropbox.com/install">Dropbox</a>
+<ul>
+<li>to sync text data output across computers. these files are small in size so I wouldnt worry about using dropbox for them. however, I do not recommend putting large gb videos on dropbox.</li>
+</ul>
+</li>
+<li><a href="https://slack.com/downloads/windows">Slack</a>
+<ul>
+<li>to communicate with yourself</li>
+</ul>
+</li>
+<li>Github (highly recommend)
+<ul>
+<li>to maintain latest version of code</li>
+<li>use app or CLI</li>
+</ul>
+</li>
+</ul>
+<h2 id="day-to-day-operation">Day-to-Day operation</h2>
+<p>The central control script is a jupyter notebook which is organized into cells and allows for user input.</p>
+<h2 id="capacitance-circuit">Capacitance Circuit</h2>
+<p>Documented by Vera McCoy.</p>
 <h2 id="conductance-circuit">Conductance Circuit</h2>
 <p><img src="/images/circuit_conductance.jpg" alt="Conductance Rig with 2P Integration">
 Documented by Vera McCoy.</p>
-<h2 id="capacitance-circuit">Capacitance Circuit</h2>
-<p>Documented by Vera McCoy.</p>
+<h2 id="random-tips-i-learned">Random Tips I Learned</h2>
+<ul>
+<li>i am interested in using micropython to control microcontrollers (arduino) rather than arduino IDE bc it might integrate with python better , but I have not tried it.</li>
+<li>arduino code is just c.</li>
+</ul>
 <h2 id="technical-implementation">Technical Implementation</h2>
 <ul>
-<li><strong>User Authentication</strong>: Secure login and registration system</li>
+<li><strong>title</strong> : text</li>
 </ul>
-<p>The project uses a modern tech stack with React for the frontend, Node.js and Express for the backend, and MongoDB for data persistence. Authentication is handled with JWT tokens, and the UI is built with responsive design principles.</p>
+<p>text</p>
+<h2 id="arducam">Arducam</h2>
+<p>Setup on [version]</p>
+<p>Open AMCAP</p>
+<p>Options &gt; Video Capture Pin</p>
 <ul>
-<li>note, cheaper</li>
+<li>MJPG</li>
+<li>640 x 480</li>
+<li>Apply</li>
+<li>OK</li>
+</ul>
+<p>Options &gt; Video Capture Filter&gt;camera control</p>
+<ul>
+<li>Unlock auto, Exposure -10</li>
+<li>Apply</li>
+<li>OK</li>
 </ul>
 <h2 id="basler-camera-api">Basler Camera API</h2>
+<p>This is the current operating protocol that must be done for each day/session in pylon API (the app).I eventually want to use pypylon the python library to automate and better integrate this camera control with the rest of the script!</p>
+<h3 id="connections">Connections</h3>
+<ol>
+<li>P2.4 NIDAQ (behavior PC) to Line 2 on Basler cameras</li>
+<li>40640930 — side camera</li>
+<li>40640920 — front camera</li>
+</ol>
+<h3 id="pylon-settings-manual-to-translate-to-python">Pylon settings (manual) to translate to Python</h3>
+<ul>
+<li>Select device: 40640930</li>
+<li>Image Format Control
+<ul>
+<li>Binning horizontal mode: sum</li>
+<li>Binning horizontal: 4 (max value)</li>
+<li>Binning vertical mode: sum</li>
+<li>Binning vertical: 4 (max value)</li>
+<li>Note: Binning reduces exposure time/gain requirements by increasing light per pixel.</li>
+<li>Adjust width to 380</li>
+<li>Default after 4x4 binning: width 480, height 300</li>
+<li>Offset X: value specific to camera</li>
+<li>Pixel format: Mono8</li>
+</ul>
+</li>
+<li>Acquisition Control
+<ul>
+<li>Exposure time (µs): 2000</li>
+<li>Acquisition frame rate: 100</li>
+<li>Enable acquisition frame rate: On</li>
+<li>Trigger selector: Frame Start</li>
+<li>Trigger mode: On</li>
+<li>Trigger source: Line 2</li>
+<li>Trigger activation: Rising Edge</li>
+<li>Set identical on both cameras</li>
+</ul>
+</li>
+<li>Analog Control
+<ul>
+<li>Gain (dB): 10–15 (front), 7–8 (side)</li>
+<li>Note: Analog gain increases sensor sensitivity by drawing more current (more power).</li>
+<li>Warning: Setting gain to 30 previously froze the PC (likely USB hub power issue).</li>
+</ul>
+</li>
+<li>Many of the above can be verified under the Features &gt; Basic tab.</li>
+</ul>
+<h3 id="recording-settings-pylon">Recording settings (Pylon)</h3>
+<ul>
+<li>Window &gt; Recording Settings</li>
+<li>Select: &ldquo;Sequence of still images&rdquo;</li>
+<li>Output format: TIFF (chosen over BMP for better lossless compression and familiarity)</li>
+<li>Recording buffer size: 1000 frames</li>
+<li>Record a frame every: 1 frame</li>
+<li>Stop recording after: 20 minutes</li>
+<li>Output folder: set per session</li>
+<li>Preallocate: On</li>
+</ul>
+<p>After selecting animal:</p>
+<ul>
+<li>Create a folder for the session data</li>
+<li>Create subfolders for side/front</li>
+<li>Consider flat vs nested structure. Flat may be easier later if folder names encode metadata.</li>
+</ul>
+<p>Notes/TODO:</p>
+<ul>
+<li>Assess how much of Pylon&rsquo;s default buffer/save behavior maps to <code>pypylon</code>.</li>
+<li>First attempt: set and save these params in Pylon GUI; use Python to send Frame Start trigger at 100 Hz.</li>
+</ul>
+<h2 id="analysis-with-deeplabcut">Analysis with DeepLabCut</h2>
 <ul class="pa0">
   
 </ul>
